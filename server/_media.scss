@@ -1,0 +1,244 @@
+/* 1200px ↓ */
+@media (max-width: 1200px) {
+
+}
+
+//@media (max-width: 1024px) {
+//  .burger nav,
+//  .burger .cta {
+//    display: none;
+//  }
+//
+//  .burger {
+//    display: flex;
+//  }
+//}
+
+
+/* 992px ↓ */
+@media (max-width: 992px) {
+
+}
+
+/* 768px ↓ */
+@media (max-width: 768px) {
+  .header__logo{
+    padding-left: 20px;
+  }
+  .header__wrap {
+    position: fixed;
+    background: #163133;
+    width: 100%;
+  }
+  .header__wrap .mobile-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  .hero__content {
+    transform: none;
+  }
+  .hero__container {
+    align-items: center;
+  }
+  .hero {
+    overflow: visible;
+  }
+  .hero__content > :nth-child(1){
+    margin-top: 90px;
+  }
+  .hero__content > :nth-child(4){
+    text-align: center;
+  }
+  .btn-primary{
+    background: #fad28c;
+  }
+  .header .header__cta-none{
+    display: none;
+  }
+  .header .mobile-menu{
+    bottom: 8em;
+  }
+  .hero__stat {
+    left: 0;
+    top: inherit;
+    bottom: 5px;
+    padding: 10px 15px;
+  }
+  .hero__visual{
+    padding-top: 150px;
+  }
+  .hero__container{
+    align-items: self-end;
+  }
+  .hero__stat-img {
+    margin-bottom: 7px;
+  }
+  .hero__stat-number {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 7px;
+  }
+  .hero__title {
+    font-size: 25px;
+    line-height: 30px;
+}
+  .hero__name {
+    font-size: 56px;
+    line-height: 65px;
+  }
+  .about-notary__top {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .services .services__item .services__item-title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .why__grid {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .services .services__item--animated.visible{
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+    justify-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .stats {
+    padding: 10px 0;
+  }
+  .stats__number {
+    font-size: 30px;
+  }
+  .stats__wrapper {
+    flex-direction: row;
+    gap: 0;
+  }
+  .slider li h2 {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    max-width: 85%;
+
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 0.6em 1em;
+  }
+  .prev, .next{
+    font-size: 1em;
+  }
+  .grid-2x{
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 60px 20px;
+  }
+  .stats__dot {
+    display: none;
+  }
+
+}
+
+/* 576px ↓ */
+@media (max-width: 576px) {
+  .hero__container{
+    display: block;
+  }
+  .hero__visual {
+    padding-top: 30px;
+  }
+  .hero__stat{
+    top: inherit;
+    bottom: 40px;
+  }
+  .hero__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .hero__name {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  .hero__content > :nth-child(1) {
+    max-width: 375px;
+  }
+  .hero__content > :nth-child(4) {
+    padding-top: 20px;
+  }
+  .slider li h2 {
+    font-size: 1.1rem;
+    line-height: 1.25;
+    max-width: 90%;
+    padding: 0.6em 0.9em;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  .about-notary__top .about-notary__header h5{
+    font-weight: 400;
+  }
+  .about-notary__top {
+    gap: 0px;
+  }
+  .stats__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 24px;
+  }
+  .stats__dot {
+    display: none;
+  }
+  .stats__item{
+    font-weight: 600;
+  }
+  .stats__label {
+    font-weight: 600;
+  }
+  .about-notary__top .about-notary__header p{
+    font-weight: 400;
+  }
+  .contact__subtitle{
+    color: #163133;
+  }
+  .testimonials {
+    padding: 0 0;
+  }
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 20px;
+  }
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+  .footer__contacts {
+    grid-column: 1 / -1;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .footer__contacts .footer__contact {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .footer__contacts .footer__contact {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+  .blog-card__image{
+    margin: 0 auto;
+  }
+}
+
